@@ -6,3 +6,9 @@
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
