@@ -12,13 +12,40 @@
   align-items: center;
   margin: 1rem;
 }
-.padding-right {
-  padding-left: 19rem;
-}
 p {
   margin-top: 1rem;
 }
-a {
-  margin-top: 1rem;
-  font-size: 0.8rem;
+
+@media (min-width: 1281px) {
+  .padding-right {
+    padding-left: 15rem;
+  }
+
+  a {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .padding-right {
+    padding-left: 9rem;
+  }
+  a {
+    margin-top: 1rem;
+    font-size: 0.65rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .padding-right {
+    padding-left: 1rem;
+  }
+  a {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+  }
+
+}
+
+
+
