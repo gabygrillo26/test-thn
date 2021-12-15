@@ -1,0 +1,38 @@
+.container-background{
+  background-image: url('/assets/images/los-cocos-room-header-2-x.png');
+  display: flex;
+  align-items: center;
+  height: 11rem;
+  width: 100%;
+}
+.container-check {
+  background-color: #5682c37d;
+  height: 4rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.input-checkbar{
+  background-color: white;
+}
+.w-10 {
+  width: 10%;
+}
+.w-15 {
+  width: 15%;
+}
+.w-20 {
+  width: 20%;
+}
+
+.calendar-icon{
+  width: 15px;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  z-index: 1;
+}
+.margin-right{
+  margin-right: 1.5rem;
+}

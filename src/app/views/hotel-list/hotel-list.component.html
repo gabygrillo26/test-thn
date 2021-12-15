@@ -1,0 +1,4 @@
+<ng-container *ngFor="let hotel of hotels">
+  <app-hotel-item [hotel]="hotel" [promoCodeHotel]="promoCodeHotel" (selectHotelEvent)="onHotelSelected($event)">
+  </app-hotel-item>
+</ng-container>

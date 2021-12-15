@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.t-gray {
+  color: gray;
+}
+.img-ls {
+  width: 95%;
+}
+.img-md {
+  width: 70%;
+}
+.img-mds {
+  width: 55%;
+}
+.img-xs {
+  width: 10%;
+}
+.card-image {
+  display: flex;
+  align-items: center;
+}
+.container-hotel {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+small {                       /*small text*/
+  font-size: 0.72rem;     /*10pts .xd*/
+}
+
+p, td {                       /*standard, common text*/
+  font-size: 0.8rem;         /*12pts .xd*/
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

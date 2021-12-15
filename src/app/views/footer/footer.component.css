@@ -1,0 +1,24 @@
+.img-social {
+  width: 10rem;
+  height: 2.5rem;
+}
+.img-footer {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+}
+.container-footer {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.padding-right {
+  padding-left: 19rem;
+}
+p {
+  margin-top: 1rem;
+}
+a {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
