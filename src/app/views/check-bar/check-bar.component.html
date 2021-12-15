@@ -1,45 +1,7 @@
 <div class="container-background">
   <div class="container-check" [formGroup]="checkForm">
-      <!-- <div class="w-15 margin-right">
-          <div class="form-group">
-            <div class="input-group">
-              <input class="form-control" placeholder="dd-mm-yyy"
-                formControlName="checkin" name="dpIn"  ngbDatepicker #dIn="ngbDatepicker">
-              <img class="calendar-icon cursor-pointer" (click)="dIn.toggle()" src="assets/icons/calendar-regular.svg">
-            </div>
-          </div>
-      </div>
-      <div class="w-15 margin-right">
-        <div class="form-group">
-          <div class="input-group position-relative">
-            <input class="form-control" placeholder="dd-mm-yyy"
-              formControlName="checkout" name="dpOut"  ngbDatepicker #dOut="ngbDatepicker">
-            <img class="calendar-icon cursor-pointer" (click)="dOut.toggle()" src="assets/icons/calendar-regular.svg">
-          </div>
-        </div>
-      </div>
-       <div class="w-10 margin-right">
-        <select class="form-control" placeholder="Adults" formControlName="adults">
-            <option [ngValue]="null">Adults</option>
-            <option [ngValue]="adult" *ngFor="let adult of adultsList">
-              {{adult}}
-            </option>
-        </select>
-      </div>
-      <div class="w-10 margin-right">
-        <select class="form-control" placeholder="Children" formControlName="children">
-          <option [ngValue]="null">Children</option>
-          <option [ngValue]="children" *ngFor="let children of childrenList">
-            {{children}}
-          </option>
-      </select>
-      </div>
-      <div class="w-20">
-        <button type="button" class="btn btn-primary btn-large" (click)="modify()">Modify</button>
-      </div> -->
-
-      <div class="row">
-        <div class="col-lg-3 col-12">
+      <div class="row mt-2 mb-2">
+        <div class="col-lg-3 col-12 mb-2">
           <div class="form-group">
             <div class="input-group">
               <input class="form-control" placeholder="dd-mm-yyy"
@@ -48,7 +10,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12 mb-2">
           <div class="form-group">
             <div class="input-group position-relative">
               <input class="form-control" placeholder="dd-mm-yyy"
@@ -57,7 +19,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-6">
+        <div class="col-lg-2 col-6 mb-2">
           <select class="form-control" placeholder="Adults" formControlName="adults">
             <option [ngValue]="null">Adults</option>
             <option [ngValue]="adult" *ngFor="let adult of adultsList">
@@ -65,7 +27,7 @@
             </option>
         </select>
         </div>
-        <div class="col-lg-2 col-6">
+        <div class="col-lg-2 col-6 mb-2">
           <select class="form-control" placeholder="Children" formControlName="children">
             <option [ngValue]="null">Children</option>
             <option [ngValue]="children" *ngFor="let children of childrenList">
@@ -73,7 +35,7 @@
             </option>
         </select>
         </div>
-        <div class="col-lg-2 col-12">
+        <div class="col-lg-2 col-12 mb-2">
           <button type="button" class="btn btn-primary btn-large" (click)="modify()">Modify</button>
         </div>
       </div>
